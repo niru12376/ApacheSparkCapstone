@@ -30,3 +30,4 @@ if __name__ == '__main__':
     final = accounts.join(parties, account_party, "inner").join(address, party_address, "inner"). show()
 
     logger.info("Finished creating Spark Session")
+    logger.info("One more")
